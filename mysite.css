@@ -1,0 +1,84 @@
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+}
+
+.blink {
+    animation: blink 2s steps(5, start) infinite;
+    }
+    @keyframes blink {
+      	to {
+        	visibility: hidden;
+      	}
+    }
+
+.img-text{
+  	position: absolute;
+  	color: #fff;
+  	text-align: center;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	letter-spacing: 3px;
+  	text-transform: uppercase;
+}
+
+.vertical-text {	
+   text-orientation: mixed;
+   writing-mode: vertical-lr;	
+   float: left;
+   position: relative;
+}
+
+.huge-text {
+	font-size: 35px;
+}
+
+.tab {
+	overflow: hidden;
+	background-color: #f1f1f1;
+}
+
+.tab button {
+	background-color: inherit;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	transition: 0.3s;
+	font-size: 17px;
+}
+
+.tab button:hover {
+	background-color: #f4c613;
+}
+
+.tab button.active {
+	background-color: #f4c613;
+}
+
+.tabcontent {
+	display: none;
+	padding: 6px 12px;
+	border-top: none;
+}
+
+.small-image-floating-text{
+    z-index: 1;
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.top-left {
+  	position: absolute;
+  	z-index: 1;
+  	top: 10px;
+  	left: 30px;
+  	overflow: hidden;
+  	font-weight: bold;
+}

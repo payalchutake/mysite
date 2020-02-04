@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://cdn.jsdelivr.net/jquery.bootstrapvalidator/0.5.0/css/bootstrapValidator.min.css"/>
+    <link rel="stylesheet" type="text/css" href="mysite.css">
+</head> 
+<body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.bootstrapvalidator/0.5.0/js/bootstrapValidator.min.js"></script>
+	<script type="text/javascript" src="mysite.js"></script>
+
+	<div class="container-fluid">
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+	        <div class="container navbar-container">
+	            <div class="navbar-header">
+	                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="true" aria-controls="navbar">
+	                    <span class="icon-bar"></span>
+	                    <span class="icon-bar"></span>
+	                    <span class="icon-bar"></span>
+	                </button>
+	                <!-- <a id="brand" class="navbar-brand" href="#info">BlackGhost://</a> -->
+	            </div>
+	            <div id="navbar" class="collapse navbar-collapse" id="navbar">
+	                <ul class="nav navbar-nav">
+	                    <li class="active"><a href="#info">HOME</a></li>
+	                    <li><a href="#about">ABOUT</a></li>
+	                    <li><a href="#project">PROJECT</a></li>
+	                    <li><a href="#contact">CONTACT</a></li>
+	                </ul>
+	            </div>
+	        </div>
+	    </nav>
+	</div>
+
+	<div class="container-fluid">
+		<img class="img-responsive" src="img/Website-Design.jpg" alt="header image" id="info" style="height: 100%;">
+		<div class="img-text">
+			<h1 class="display-4">hey there!</h1>
+			<h1 class="display-4">I am <strong style="color: #f4c613;">payal chutake</strong></h1>
+			<h1 class="display-4">A <strong style="color: #f4c613;">professional</strong> full-stack developer</h1>
+		</div>
+	</div>
+
+	<br>
+
+	<div class="container">
+		<div class="col-sm-12 row" id="about">
+			<div class="col-sm-6">
+				<span class="vertical-text" style="color: #f4c613; font-size: 20px; overflow: hidden;"><strong>WHO AM I?</strong></span>
+				<div class="info-text">
+					<span class="huge-text">A brief <strong>Introduction</strong><br> About Me</span>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<span class="info-content" style="font-size: 15px;">
+					Hi! I am <strong>Payal Chutake</strong>,I have completed BSc in Computer Science from Pune University.I Enjoy spending hours behind a computer screen and creating something meaningful.A Tech enthusiast with a firm motive of learning and exploring.
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<br>
+
+	<div class="container">
+		<img class="img-responsive" style="margin-bottom: 50px;" src="img/about.png" alt="responsiveImage">
+	</div>
+
+	<br>
+
+	<div class="container">
+		<div class="col-sm-12 row" id="about">
+			<span class="vertical-text huge-text" style="color: #f4c613; font-size: 20px; overflow: hidden;"><strong>FIND MY WORK</strong></span>
+			<span class="huge-text">My<br>Amamzing <strong>Work</strong></span>
+		</div>
+	</div>
+
+	<div class="container" id="project">
+		<div class="tab">
+			<button class="tablinks active" onclick="openTab(event, 'All')" id="defaultOpen">ALL</button>
+			<button class="tablinks" onclick="openTab(event, 'Python')">PYTHON</button>
+			<button class="tablinks" onclick="openTab(event, 'Web')">WEB</button>
+		</div>
+
+		<div class="col-md-12 row">
+			<div id="All" class="tabcontent">
+				<div class="col-md-3">
+					<img class="img-responsive image" src="img/001.jpg" alt="responsiveImage">
+					<div class="small-image-floating-text top-left">
+						<span class="text-content" style="font-size: 20px; color: orange; font-weight: bold; text-transform: uppercase;">python</span>
+						<br>
+						<span>torrent scrapper beautifulsoup</span>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<img class="img-responsive image" src="img/002.jpg" alt="responsiveImage">
+					<div class="small-image-floating-text top-left">
+						<span class="text-content" style="font-weight: bold; color: orange; font-size: 20px; text-transform: uppercase;">python</span>
+						<br>
+						<span>pygame module tic-tac-toe</span>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<img class="img-responsive image" src="img/003.jpg" alt="responsiveImage">
+					<div class="small-image-floating-text top-left">
+						<span class="text-content" style="font-weight: bold; color: orange; font-size: 20px; text-transform: uppercase;">python</span>
+						<br>
+						<span>pygame module sorting visualizer</span>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<img class="img-responsive image" src="img/004.jpg" alt="responsiveImage">
+					<div class="small-image-floating-text top-left">
+						<span class="text-content" style="font-weight: bold; color: orange; font-size: 20px; text-transform: uppercase;">web-dev</span>
+						<br>
+						<span>web-design</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-12 row">
+			<div id="Python" class="tabcontent">
+				<div class="col-md-3">
+					<img class="img-responsive" src="img/001.jpg" alt="responsiveImage">
+					<div class="small-image-floating-text top-left">
+						<span class="text-content" style="font-size: 20px; color: orange; font-weight: bold; text-transform: uppercase;">python</span>
+						<br>
+						<span>torrent scrapper beautifulsoup</span>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<img class="img-responsive" src="img/002.jpg" alt="responsiveImage">
+					<div class="small-image-floating-text top-left">
+						<span class="text-content" style="font-weight: bold; color: orange; font-size: 20px; text-transform: uppercase;">python</span>
+						<br>
+						<span>pygame module tic-tac-toe</span>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<img class="img-responsive" src="img/003.jpg" alt="responsiveImage">
+					<div class="small-image-floating-text top-left">
+						<span class="text-content" style="font-weight: bold; color: orange; font-size: 20px; text-transform: uppercase;">python</span>
+						<br>
+						<span>pygame module sorting visualizer</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-12 row">
+			<div id="Web" class="tabcontent">
+				<div class="col-md-3">
+					<img class="img-responsive" src="img/004.jpg" alt="responsiveImage">
+					<div class="small-image-floating-text top-left">
+						<span class="text-content" style="font-weight: bold; color: orange; font-size: 20px; text-transform: uppercase;">web-dev</span>
+						<br>
+						<span>web-design</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<br>
+
+	<div class="container">
+		<div class="col-md-12 row" id="contact">
+			<div class="col-md-6">
+				<span class="vertical-text huge-text" style="color: #f4c613; font-size: 20px; overflow: hidden;"><strong>WHO AM I</strong></span>
+				<span class="huge-text">Get<br>In <strong>Touch</strong></span><br>
+				<span>Hope you liked some of my projects! Get in touch with me!</span>
+				<h2>Mumbai</h2>
+				<h4><i class="fas fa-mobile" style="margin-right: 20px;"></i>+91 8459824043</h4>
+				<h4><i class="fas fa-envelope" style="margin-right: 20px;"></i>payalchutake@gmail.com</h4>
+				<h4><i class="fas fa-map-pin" style="margin-right: 20px;"></i>Chandivali, Powai, Maharashtra 400072</h4>
+			</div>
+
+			<form name="HTML-form-to-google-sheet" role="form" id="test-form">
+				<div class="form-row col-lg-6">
+					<h2>Send Message</h2>
+					<div class="form-group col-lg-6">
+						<input type="text" class="form-control" name="name" placeholder="Your name" required>
+					</div>
+					<div class="form-group col-lg-6">
+						<input type="email" class="form-control" name="email" placeholder="Your email" required>
+					</div>
+				</div>
+
+				<div class="form-row col-lg-6">
+					<div class="form-group col-lg-6">
+						<input type="tel" class="form-control" name="number" placeholder="Your mobile number" required>
+					</div>
+					<div class="form-group col-lg-6">
+						<input type="text" class="form-control" name="subject" placeholder="Your subject">
+					</div>
+				</div>
+
+				<div class="form-row col-lg-6">
+					<div class="form-group">
+						<textarea class="form-control" id="exampleFormControlTextarea1" name="Message" placeholder="Write something...." rows="5"></textarea>
+					</div>
+					<button type="submit" class="btn btn-primary" id="postForm">Submit</button>
+				</div>
+			</form>
+		</div>
+	</div>
+	<a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top blink" role="button"><i class="fas fa-angle-double-up" style="font-size: 40px; color: #f4c613;"></i></a>
+
+</body>
+</html>
